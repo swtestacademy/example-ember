@@ -6,7 +6,7 @@ moduleForAcceptance('Acceptance | user can add todos');
 test('add todos', function(assert) {
   visit('/');
 
-  percySnapshot('Empty todo list');
+  percySnapshot('Empty todo list1');
 
   fillIn('#new-todo', 'Bake a cake');
   keyEvent('#new-todo', 'keydown', 13);
